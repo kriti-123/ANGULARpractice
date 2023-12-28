@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { UserAuthModule } from './user-auth/user-auth.module';
 import { AdminAuthModule } from './admin-auth/admin-auth.module';
 import { UserAuthComponent } from './register/user-auth/user-auth.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserAuthComponent
+    UserAuthComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

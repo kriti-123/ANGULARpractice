@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'project1';
   name='kriti shree gupta';
+  data=10
+  updatechild(){
+    this.data = Math.floor(Math.random()*10);
+  }
 }

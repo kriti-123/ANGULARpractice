@@ -8,7 +8,9 @@
 <body>
   <h1>kriti shree{{title}}</h1>
   <h1>{{name}}</h1>
-  <app-sign-up>hi ..</app-sign-up>
-  <app-sign-up-admin>hi ??????</app-sign-up-admin>
+  <app-sign-up></app-sign-up>
+  <app-sign-up-admin></app-sign-up-admin>
+  <app-child [item]="data"></app-child>
+  <button (click)="updatechild()">click me</button>
 </body>
 </html>
